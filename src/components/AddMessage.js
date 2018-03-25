@@ -5,7 +5,7 @@ const AddMessage = (props) => {
     let input
 
     return (
-        <section id="new-message"
+        <section id="new-message">
             <input
             onKeyPress={(e) => {
                 if (e.key === 'Enter') {
@@ -17,6 +17,7 @@ const AddMessage = (props) => {
             ref={(node) => { 
                 input = node
             }} 
+            />
             </section>
     )  
 }
