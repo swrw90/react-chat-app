@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Sidebar } from './components/Sidebar';
-import { MessagesList } from './components/MessagesList';
+import { MessageList } from './components/MessageList';
 import { AddMessage } from './components/AddMessage';
 
 import './App.css';
