@@ -1,5 +1,5 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from 'react'
+import PropTypes from 'prop-types'
 
 const Message = ({ message, author }) => (
     <p>
@@ -12,4 +12,4 @@ Message.PropTypes = {
     author: PropTypes.string.isRequired
 }
 
-export default Message; 
+export default Message
